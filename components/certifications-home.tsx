@@ -5,8 +5,8 @@ import { Shield, Award, Leaf, Users } from "lucide-react"
 
 const certifications = [
   {
-    name: "ISO 9001:2015",
-    description: "Quality Management System",
+    name: "TROPHY BY  2023-25",
+    description: "CHAMBER OF COMMERCE ",
     icon: Award,
     badge: "/placeholder.svg?height=100&width=100",
   },
