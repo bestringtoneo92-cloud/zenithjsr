@@ -47,10 +47,16 @@ export default function Hero() {
         style={{
           backgroundImage: "url(/images/home2.jpg)",
           backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/70 to-background/40" />
+          backgroundPosition: "center",  }}     >
+
+        
+        {/* <div className="absolute inset-0 bg-gradient-to-r from-background via-background/70 to-background/40" /> */}
+             {/* <div className="absolute inset-0 bg-gradient-to-r    to-background/40" /> */}
+
+ 
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-950/90 via-blue-900/70 to-blue-900/40" />
+
+
       </div>
 
       <div className="relative z-10 grid lg:grid-cols-2 gap-8 h-screen items-center px-4 sm:px-6 lg:px-12">
@@ -78,7 +84,7 @@ export default function Hero() {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl text-muted-foreground max-w-xl leading-relaxed">
+          <p className="text-xl text-white max-w-xl leading-relaxed">
             ISO-certified leader in mechanical maintenance, fabrication, installation, and commissioning of heavy
             equipment for steel, power, and cement industries.
           </p>
@@ -100,14 +106,14 @@ export default function Hero() {
                 <Counter end={40} suffix="+" />
 
               </p>
-              <p className="text-sm text-muted-foreground ">Years in Industry</p>
+              <p className="text-sm text-white ">Years in Industry</p>
             </div>
             <div>
               <p className="text-3xl font-bold text-orange-500">
                 <Counter end={1000} suffix="+" />
                 {/* 1000+ */}
               </p>
-              <p className="text-sm text-muted-foreground">Projects Completed</p>
+              <p className="text-sm text-white">Projects Completed</p>
             </div>
             <div>
               <p className="text-3xl font-bold text-orange-500">
@@ -115,20 +121,11 @@ export default function Hero() {
 
                 {/* 50+ */}
               </p>
-              <p className="text-sm text-muted-foreground">Expert Engineers</p>
+              <p className="text-sm text-white">Expert Engineers</p>
             </div>
           </div>
         </div>
-        {/* <div className={`hidden lg:block ${isVisible ? "animate-slideInRight" : "opacity-0"}`}>
-          <div className="relative rounded-2xl overflow-hidden border-4 border-secondary/60 shadow-2xl shadow-secondary/40">
-            <img
-               src="/images/home2.jpg"
-              alt="Zenith Engineering industrial equipment"
-              className="w-full h-[600px] object-cover"
-            />
-           </div>
-        </div>
-      */}
+       
 
         <div
           className={`hidden lg:block ${isVisible ? "animate-slideInRight" : "opacity-0"

@@ -74,7 +74,7 @@ export default function Services() {
              bg-[url('/images/home1.jpg')] bg-cover bg-center"
 >
   {/* Overlay */}
-  <div className="absolute inset-0 bg-background/80 z-0" />
+  <div className="absolute inset-0 bg-background/40 z-0" />
 
   {/* Content */}
   <div className="relative z-10 max-w-6xl mx-auto">
@@ -107,7 +107,7 @@ export default function Services() {
             />
 
             {/* Card Overlay */}
-            <div className="absolute inset-0 bg-background/75 group-hover:bg-background/60 transition-colors" />
+            <div className="absolute inset-0 bg-background/65 group-hover:bg-background/50 transition-colors" />
 
             {/* Card Content */}
             <div className="relative z-10 p-8">

@@ -49,7 +49,8 @@ export default function CertificationsHome() {
   }, [])
 
   return (
-    <section id="certifications-home-section" className="py-24 px-4 sm:px-6 lg:px-12 bg-background">
+    <section id="certifications-home-section" className="py-24 px-4 sm:px-6 lg:px-12
+  bg-gradient-to-r from-blue-950/10 via-background to-blue-950/10">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 tracking-wide">CERTIFICATIONS</h2>

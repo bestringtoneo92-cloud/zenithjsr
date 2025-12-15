@@ -26,7 +26,10 @@ export default function CTA() {
   return (
     <section
       id="cta-section"
-      className="relative py-24 px-4 sm:px-6 lg:px-12 bg-gradient-to-r from-primary/20 via-background to-background overflow-hidden"
+      // className="relative py-24 px-4 sm:px-6 lg:px-12 bg-gradient-to-r from-primary/20 via-background to-background overflow-hidden"
+      className="relative py-24 px-4 sm:px-6 lg:px-12
+bg-gradient-to-r from-primary/40 via-background to-primary/40
+overflow-hidden"
     >
       {/* Background elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl -z-10" />
