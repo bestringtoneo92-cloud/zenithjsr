@@ -62,12 +62,20 @@ export default function Hero() {
 
       <div className="relative z-10 grid lg:grid-cols-2 gap-8 h-screen items-center px-4 sm:px-6 lg:px-12">
         <div className={`space-y-6 ${isVisible ? "animate-fadeInUp" : "opacity-0"}`}>
-          <div className="mb-8">
+          {/* <div className="mb-8">
             <img src="/images/weblogo.png" alt="Zenith Engineering Company" className="h-20" />
-          </div>
+          </div> */}
 
 
-
+<div className="mb-8">
+  <div className="inline-flex items-center justify-center h-20 w-20 rounded-full bg-white shadow-lg backdrop-blur-sm">
+    <img
+      src="/images/weblogo.png"
+      alt="Zenith Engineering Company"
+      className="h-19 w-auto object-contain"
+    />
+  </div>
+</div>
 
           <div
             className={`inline-block ${isVisible ? "animate-tagline" : "opacity-0"
