@@ -67,7 +67,7 @@ export default function Hero() {
           </div> */}
 
 
-<div className="mb-8">
+{/* <div className="mb-8">
   <div className="inline-flex items-center justify-center h-20 w-20 rounded-full bg-white shadow-lg backdrop-blur-sm">
     <img
       src="/images/weblogo.png"
@@ -75,7 +75,18 @@ export default function Hero() {
       className="h-19 w-auto object-contain"
     />
   </div>
+</div> */}
+
+<div className="hidden lg:block mb-8">
+  <div className="inline-flex items-center justify-center h-20 w-20 rounded-full bg-white shadow-lg backdrop-blur-sm">
+    <img
+      src="/images/weblogo.png"
+      alt="Zenith Engineering Company"
+      className="h-16 w-auto object-contain"
+    />
+  </div>
 </div>
+
 
           <div
             className={`inline-block ${isVisible ? "animate-tagline" : "opacity-0"
