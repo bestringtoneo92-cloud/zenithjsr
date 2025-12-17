@@ -47,14 +47,15 @@ export default function Hero() {
         style={{
           backgroundImage: "url(/images/home2.jpg)",
           backgroundSize: "cover",
-          backgroundPosition: "center",  }}     >
+          backgroundPosition: "center",
+        }}     >
 
-        
+
         {/* <div className="absolute inset-0 bg-gradient-to-r from-background via-background/70 to-background/40" /> */}
-             {/* <div className="absolute inset-0 bg-gradient-to-r    to-background/40" /> */}
+        {/* <div className="absolute inset-0 bg-gradient-to-r    to-background/40" /> */}
 
- 
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-950/90 via-blue-900/70 to-blue-900/40" />
+
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-950/60 via-blue-900/50 to-blue-900/20" />
 
 
       </div>
@@ -65,7 +66,7 @@ export default function Hero() {
             <img src="/images/weblogo.png" alt="Zenith Engineering Company" className="h-20" />
           </div>
 
- 
+
 
 
           <div
@@ -79,7 +80,7 @@ export default function Hero() {
           </div>
 
           {/* Main heading */}
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight text-balance text-foreground">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight text-white text-foreground">
             Zenith Engineering Company
           </h1>
 
@@ -110,22 +111,22 @@ export default function Hero() {
             </div>
             <div>
               <p className="text-3xl font-bold text-orange-500">
-                <Counter end={1000} suffix="+" />
+                <Counter end={2000} suffix="+" />
                 {/* 1000+ */}
               </p>
               <p className="text-sm text-white">Projects Completed</p>
             </div>
             <div>
               <p className="text-3xl font-bold text-orange-500">
-                <Counter end={50} suffix="+" />
+                <Counter end={350} suffix="+" />
 
                 {/* 50+ */}
               </p>
-              <p className="text-sm text-white">Expert Engineers</p>
+              <p className="text-sm text-white">Smart Technicians</p>
             </div>
           </div>
         </div>
-       
+
 
         <div
           className={`hidden lg:block ${isVisible ? "animate-slideInRight" : "opacity-0"

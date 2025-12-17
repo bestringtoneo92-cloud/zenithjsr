@@ -46,7 +46,11 @@ export default function Clients() {
     <section id="clients-section" className="py-24 px-4 sm:px-6 lg:px-12 bg-muted/30">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 tracking-wide">VALUABLE CLIENTS</h2>
+          {/* <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 tracking-wide">VALUABLE CLIENTS</h2> */}
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 tracking-wide relative inline-block">
+  VALUABLE CLIENTS
+  <span className="absolute left-1/2 -bottom-3 h-1 w-120 -translate-x-1/2 rounded-full bg-orange-500"></span>
+</h2>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">

@@ -11,10 +11,12 @@ import CertificationsHome from "@/components/certifications-home"
 import Certifications from "@/components/certifications"
 import CTA from "@/components/cta"
 import Footer from "@/components/footer"
+import Navbar from "@/components/navbar"
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
+      <Navbar/>
       <Hero />
       <About />
       <Services />

@@ -66,23 +66,28 @@ export default function Projects() {
   }, [])
 
   return (
-    <section id="projects-section"  className="relative py-24 px-4 sm:px-6 lg:px-12
+    <section id="projects-section" className="relative py-24 px-4 sm:px-6 lg:px-12
   bg-gradient-to-r from-primary/80 via-primary/900 to-primary/80">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-secondary text-sm font-semibold tracking-widest uppercase">Portfolio</span>
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mt-4 text-balance">
+          <div>  <span className="text-secondary text-sm font-semibold tracking-widest uppercase">Portfolio</span></div>
+          {/* <h2 className="text-4xl md:text-5xl font-bold text-foreground mt-4 text-balance">
             Major Projects & Executions
+          </h2> */}
+          <h2 className="relative inline-block text-4xl md:text-5xl font-bold text-foreground mt-4 z-10">
+            Major Projects & Executions
+            <span className="absolute left-0 bottom-1 w-full h-10 bg-orange-500/70 z-[-1] rotate-[-1deg] rounded-sm"></span>
           </h2>
+
+
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <div
               key={index}
-              className={`group bg-card rounded-xl border border-border overflow-hidden hover:border-primary transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 ${
-                isVisible ? `animate-fadeInUp stagger-${(index % 4) + 1}` : "opacity-0"
-              }`}
+              className={`group bg-card rounded-xl border border-border overflow-hidden hover:border-primary transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 ${isVisible ? `animate-fadeInUp stagger-${(index % 4) + 1}` : "opacity-0"
+                }`}
             >
               {/* Project Image */}
               <div className="relative h-48 overflow-hidden">

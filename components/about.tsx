@@ -28,10 +28,27 @@ export default function About() {
           {/* Content */}
           <div className={`space-y-6 ${isVisible ? "animate-slideInRight" : "opacity-0"}`}>
             <div>
-              <span className="text-secondary text-sm font-semibold tracking-widest uppercase">About Us</span>
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground mt-4 text-balance">
+              <span className="relative inline-block text-sm font-semibold tracking-widest uppercase text-foreground">
+                <span className="relative z-11 px-3">About Us</span>
+                <span className="absolute inset-0 bg-orange-400/30 rounded-sm -skew-x-6"></span>
+              </span>
+
+              {/* <span className="text-secondary text-sm font-semibold tracking-widest uppercase">About Us</span> */}
+              {/* <h2 className="text-4xl md:text-5xl font-bold text-foreground mt-4 text-balance">
+                Decades of Engineering Excellence
+              </h2> */}
+              <h2 className="relative pl-4 text-4xl md:text-5xl font-bold text-foreground mt-4">
+                <span className="absolute left-0 top-2 h-10 w-1 bg-orange-500 rounded-full"></span>
                 Decades of Engineering Excellence
               </h2>
+              {/* <h2 className="text-4xl md:text-5xl font-bold text-foreground mt-4 leading-tight">
+  Decades of{" "}
+  <span className="relative inline-block">
+    <span className="relative z-10 px-2">Engineering</span>
+    <span className="absolute inset-0 bg-orange-500/20 rounded-md -rotate-1"></span>
+  </span>{" "}
+  Excellence
+</h2> */}
             </div>
 
             <div className="space-y-4 text-muted-foreground leading-relaxed">
@@ -66,15 +83,15 @@ export default function About() {
 
           {/* Image */}
           <div className={`${isVisible ? "animate-fadeInUp stagger-2" : "opacity-0"}`}>
-<div className="relative h-[28rem] rounded-2xl overflow-hidden shadow-2xl border border-border">
-       
-<Image
-  src="/images/Aboutus1.jpg"
-  alt="Manufacturing facility"
-  fill
-  priority
-  className="object-cover"
-/>
+            <div className="relative h-[28rem] rounded-2xl overflow-hidden shadow-2xl border border-border">
+
+              <Image
+                src="/images/Aboutus1.jpg"
+                alt="Manufacturing facility"
+                fill
+                priority
+                className="object-cover"
+              />
               {/* <div className="absolute inset-0 bg-gradient-to-t from-background/10 to-transparent" /> */}
             </div>
           </div>
