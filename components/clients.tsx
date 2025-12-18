@@ -3,13 +3,13 @@
 import { useEffect, useState } from "react"
 
 const clients = [
+  { name: "NINL", logo: "/valuable_client/VALUABLE_CLIENTS18.jpg" },
+  { name: "JAMIPOL", logo: "/valuable_client/VALUABLE_CLIENTS17.jpg" },
+  { name: "Gillanders Arbuthnot", logo: "/valuable_client/VALUABLE_CLIENTS16.jpg" },
+  { name: "Ditsum", logo: "/valuable_client/18.jpg" },
+  { name: "Danieli Corus", logo: "/valuable_client/VALUABLE_CLIENTS15.jpg" },
 
   { name: "Paul Wurth", logo: "/valuable_client/VALUABLE_CLIENTS14.jpg" },
-  { name: "Danieli Corus", logo: "/valuable_client/VALUABLE_CLIENTS15.jpg" },
-  { name: "Gillanders Arbuthnot", logo: "/valuable_client/VALUABLE_CLIENTS16.jpg" },
-  { name: "JAMIPOL", logo: "/valuable_client/VALUABLE_CLIENTS17.jpg" },
-  { name: "NINL", logo: "/valuable_client/VALUABLE_CLIENTS18.jpg" },
-  { name: "Ditsum", logo: "/valuable_client/18.jpg" },
   { name: "Ditsum", logo: "/valuable_client/VALUABLE_CLIENTS13.jpg" },
 
 

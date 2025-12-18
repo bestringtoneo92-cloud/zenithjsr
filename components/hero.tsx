@@ -67,7 +67,7 @@ export default function Hero() {
           </div> */}
 
 
-{/* <div className="mb-8">
+          {/* <div className="mb-8">
   <div className="inline-flex items-center justify-center h-20 w-20 rounded-full bg-white shadow-lg backdrop-blur-sm">
     <img
       src="/images/weblogo.png"
@@ -77,7 +77,7 @@ export default function Hero() {
   </div>
 </div> */}
 
-<div className="hidden lg:block mb-8">
+          {/* <div className="hidden lg:block mb-8">
   <div className="inline-flex items-center justify-center h-20 w-20 rounded-full bg-white shadow-lg backdrop-blur-sm">
     <img
       src="/images/weblogo.png"
@@ -85,7 +85,7 @@ export default function Hero() {
       className="h-16 w-auto object-contain"
     />
   </div>
-</div>
+</div> */}
 
 
           <div
@@ -109,13 +109,22 @@ export default function Hero() {
             equipment for steel, power, and cement industries.
           </p>
 
-          <div className="flex flex-wrap gap-4 pt-4">
+          {/* <div className="flex flex-wrap gap-4 pt-4">
             <button
               onClick={() => setShowContactDialog(true)}
               className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:shadow-lg hover:shadow-primary/50 transition-all duration-300 hover:-translate-y-1"
             >
               Get In Touch
             </button>
+          </div> */}
+
+          <div className="flex flex-wrap gap-4 pt-4">
+            <a
+              href="tel:06572364116"
+              className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:shadow-lg hover:shadow-primary/50 transition-all duration-300 hover:-translate-y-1 inline-block"
+            >
+              Get In Touch
+            </a>
           </div>
 
           {/* Stats */}
