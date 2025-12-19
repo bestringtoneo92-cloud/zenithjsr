@@ -3,18 +3,29 @@
 import { useEffect, useState } from "react"
 
 const projects = [
-  {
+  // {
+  //   category: "Iron Making",
+  //   title: "Blast Furnace Revival Project",
+  //   description: "Complete Revival of Blast Furnace at NINL",
+  //   location: "NINL",
+  //   image: "/blast-furnace-industrial-equipment.jpg",
+  // },
+
+
+    {
     category: "Iron Making",
-    title: "Blast Furnace Revival Project",
-    description: "Complete Revival of Blast Furnace at NINL",
-    location: "NINL",
-    image: "/blast-furnace-industrial-equipment.jpg",
+    title: "STAVE COOLER REMOVAL & FIXING",
+    description: "Expert stave cooler removal and fixing service at Tata Steel, Jamshedpur",
+    location: "TATA STEEL JAMSHEDPUR",
+    image: "/11.jpg",
   },
+  
+
   {
     category: "Iron Making",
     title: "Grinding Mill Overhauling",
     description: "Complete grinding mill changing and maintenance operations",
-    location: "Tata Steel Jamshedpur",
+    location: "Tata Steel Jamshedpur and Meramandali",
     image: "/WhatsApp Image 2025-12-19 at 09.38.52.jpeg",
   },
   {
@@ -42,7 +53,7 @@ const projects = [
     category: "Special Projects",
     title: "Hot Blast Valve Replacement",
     description: "Complex valve and compensator system installation",
-    location: "Tata Steel Meramandali",
+    location: "Tata Steel Jamshedpur and Meramandali",
     image: "/WhatsApp Image 2025-12-18 at 21.21.20.jpeg",
   },
 ]
