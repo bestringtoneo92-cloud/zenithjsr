@@ -15,7 +15,7 @@ const projects = [
     title: "Grinding Mill Overhauling",
     description: "Complete grinding mill changing and maintenance operations",
     location: "Tata Steel Jamshedpur",
-    image: "/grinding-mill-machinery.jpg",
+    image: "/WhatsApp Image 2025-12-19 at 09.38.52.jpeg",
   },
   {
     category: "Coke Making",
@@ -36,14 +36,14 @@ const projects = [
     title: "Equipment Dismantling",
     description: "Hydroforming equipment dismantling and relocation",
     location: "Tata Steel Tube Division",
-    image: "/industrial-equipment-dismantling.jpg",
+    image: "/WhatsApp Image 2025-12-18 at 21.21.19.jpeg",
   },
   {
     category: "Special Projects",
     title: "Hot Blast Valve Replacement",
     description: "Complex valve and compensator system installation",
     location: "Tata Steel Meramandali",
-    image: "/industrial-valve-equipment.jpg",
+    image: "/WhatsApp Image 2025-12-18 at 21.21.20.jpeg",
   },
 ]
 
