@@ -3,20 +3,20 @@
 import { useEffect, useState } from "react"
 
 const projects = [
-  // {
-  //   category: "Iron Making",
-  //   title: "Blast Furnace Revival Project",
-  //   description: "Complete Revival of Blast Furnace at NINL",
-  //   location: "NINL",
-  //   image: "/blast-furnace-industrial-equipment.jpg",
-  // },
+  {
+    category: "Iron Making",
+    title: "Blast Furnace Revival Project",
+    description: "Complete Revival of Blast Furnace at NINL",
+    location: "NINL",
+    image: "/blast-furnace-industrial-equipment.jpg",
+  },
 
 
     {
     category: "Iron Making",
-    title: "STAVE COOLER REMOVAL & FIXING",
+    title: "Stave Cooler Removal & Fixing",
     description: "Expert stave cooler removal and fixing service at Tata Steel, Jamshedpur",
-    location: "TATA STEEL JAMSHEDPUR",
+    location: "Tata Steel JamshedpURur",
     image: "/11.jpg",
   },
   
