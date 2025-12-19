@@ -8,42 +8,33 @@ const certifications = [
   {
     id: 1,
     name: "TROPHY BY 2023-25",
-    description: "CHAMBER OF COMMERCE ",
-    image: "/certiications/CHAMBER_OF_COMMERCE.jpg",
-    icon: Award,
+    image: "/certiications/c6.pdf",
+
   },
   {
     id: 2,
     name: "BEST SAFETY MEASURES",
-    description: "BY ED, JSPL",
-    image: "/certiications/c2.jpg",
-    icon: Shield,
+    image: "/certiications/c7.pdf",
+
   },
   {
     id: 3,
     name: "YEAR 2019 - 2020",
-    description: "BEST SAFE CONTRACTOR OF THE YEAR 2019 - 2020 BY ED, JSPL",
-    image: "/certiications/c3.jpg",
-    icon: CheckCircle,
+    image: "/certiications/c8.pdf",
+
   },
-  {
-    id: 4,
-    name: "AWARD - 2017",
-    description: "BEST CONTRACTOR AWARD - 2017 BY VP, NVCL",
-    image: "/certiications/c4.jpg",
-    icon: Award,
-  },
+
 ]
 
 export default function Certifications() {
   return (
     <section id="certification-section"
-    //  className="py-24 bg-gradient-to-b from-background to-muted/30"
-     className="py-24 bg-gradient-to-r from-primary/40 via-background to-primary/40"
+      //  className="py-24 bg-gradient-to-b from-background to-muted/30"
+      className="py-24 bg-gradient-to-r from-primary/40 via-background to-primary/40"
 
- 
- 
-    
+
+
+
     >
       <div className="container mx-auto px-4">
         <motion.div
@@ -62,62 +53,70 @@ export default function Certifications() {
           </p>
         </motion.div>
 
- 
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {certifications.map((cert, index) => {
-            const IconComponent = cert.icon
-            return (
-              <motion.div
-                key={cert.id}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="group relative bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-border"
-              >
-                <div className="relative h-64 overflow-hidden bg-muted">
-                  <Image
-                    src={cert.image || "/placeholder.svg"}
-                    alt={cert.name}
-                    fill
-                    className="object-contain p-8 transition-transform duration-500 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </div>
-                <div className="p-6 bg-card">
-                  <div className="flex items-center gap-3 mb-3">
-                    <IconComponent className="w-6 h-6 text-primary" />
-                    <h3 className="text-xl font-bold text-foreground">{cert.name}</h3>
-                  </div>
-                  <p className="text-muted-foreground text-sm">{cert.description}</p>
-                </div>
-                <div className="absolute top-4 right-4 bg-primary/10 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <CheckCircle className="w-5 h-5 text-primary" />
-                </div>
-                
-              </motion.div>
-            )
-            
-          })}
 
-        </div>
-{/* 
-    <div className="flex justify-center mt-20">
-          <img
-            src="/images/certficate.png"   // <-- replace with your real image
-            alt="Company Certifications"
-            className="max-w-xl w-full rounded-2xl shadow-2xl border border-border"
-          />
-        </div> */}
+
+{/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 place-items-center">
+  {certifications.map((cert, index) => (
+    <motion.div
+      key={cert.id}
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6, delay: index * 0.1 }}
+      className={`group bg-card rounded-lg overflow-hidden shadow-lg border border-border w-full max-w-md
+        ${index === 0 && certifications.length === 3 ? "lg:col-start-2" : ""}
+      `}
+    >
+      <div className="h-[493px] bg-muted flex items-center justify-center">
+        <iframe
+          src={`${cert.image}#toolbar=0&navpanes=0&zoom=page-width`}
+          title={cert.name}
+          className="w-full h-full"
+        />
+      </div>
+    </motion.div>
+  ))}
+</div> */}
+
+
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
+  {certifications.map((cert, index) => (
+    <motion.div
+      key={cert.id}
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6, delay: index * 0.1 }}
+      className="group bg-card rounded-lg overflow-hidden shadow-lg border border-border w-full max-w-md"
+    >
+      <div className="h-[629px] bg-muted">
+        <iframe
+          src={`${cert.image}#toolbar=0&navpanes=0`}
+          title={cert.name}
+          className="w-full h-full"
+        />
+      </div>
+    </motion.div>
+  ))}
+</div>
 
         <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen mt-20">
-  <img
-    src="/images/certficate.png"
-    alt="Company Certifications"
-    className="w-full max-h-[80vh] object-contain mx-auto "
-  />
-</div>
+          <img
+            src="/certiications/c9.jpg"
+            alt="Company Certifications"
+            className="w-full max-h-[50vh] object-contain mx-auto "
+          />
+        </div>
+
+
+
+        <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen mt-20">
+          <img
+            src="/images/certficate.png"
+            alt="Company Certifications"
+            className="w-full max-h-[80vh] object-contain mx-auto "
+          />
+        </div>
       </div>
     </section>
   )

@@ -4,8 +4,8 @@ import { useEffect, useState } from "react"
 
 const awards = [
   {
-    image: "/award&recogition/award&recogition2.jpg",
-    title: "BEST SAFETY PERSON",
+    image: "/award&recogition/award&recogition2.jpeg",
+    title: "AWARDED BY TATA STEEL MD FOR BEST SAFETY PRACTICES",
     year: "2019",
   },
   {

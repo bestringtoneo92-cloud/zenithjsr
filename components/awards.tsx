@@ -33,22 +33,51 @@ import { Trophy, Award, Star } from "lucide-react"
 
 
 const awards = [
-  {
-    title: "CERTIFICATE OF APPRECIATION – 2010 BY TATA STEEL LTD",
-    image: "/award/award1.jpg",
+  { 
+    title: "BEST CONTARACTOR AWARD IN 2010 BY TATA STEEL LTD",
+    image: "/award/award1.jpeg",
   },
   {
     title: "FELICITATED BY CHAMBER OF COMMERCE, JAMSHEDPUR",
     image: "/award/award2.jpg",
   },
   {
-    title: "CERTIFICATE OF APPRECIATION - 2019 BY AIC",
-    image: "/award/award3.jpg",
+    title: "RECOGNIZED BY TATA STEEL FOR CONSISTENT EXCELLENCE IN ETHICAL PRACTICES",
+    image: "/award/award3.jpeg",
   },
   {
     title: "BEST PERFORMER AWARD - 2018 BY CHIEF A-F, TSJ",
     image: "/award/award4.jpg",
   },
+
+   {
+    title: "TROPHY BY 2023-25 CHAMBER OF COMMERCE",
+    image: "/certiications/CHAMBER_OF_COMMERCE.jpg",
+  },
+
+  {
+    title: "BEST SAFETY MEASURES BY ED, JSPL",
+    image: "/certiications/c2.jpg",
+  },
+
+
+    {
+    title: "BEST SAFE CONTRACTOR OF THE YEAR 2019 - 2020 BY ED, JSPL",
+    image: "/certiications/c3.jpg",
+  },
+
+    {
+    title: "BEST CONTRACTOR AWARD - 2017 BY VP, NVCL",
+    image: "/certiications/c4.jpg",
+  },
+
+
+
+
+
+
+
+    
 ]
 
 
