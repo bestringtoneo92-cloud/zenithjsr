@@ -112,31 +112,11 @@ export default function Awards() {
           </p>
         </div>
 
-        {/* <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {awards.map((award, index) => {
-            const IconComponent = award.icon
-            return (
-              <div
-                key={index}
-                className={`bg-background rounded-2xl border-2 border-border p-8 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 transition-all duration-500 hover:-translate-y-2 group ${
-                  isVisible ? `animate-fadeInUp stagger-${(index % 4) + 1}` : "opacity-0"
-                }`}
-              >
-                <div className="bg-primary/10 w-20 h-20 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary/20 group-hover:scale-110 transition-all duration-300">
-                  <IconComponent className="w-10 h-10 text-primary" />
-                </div>
-                <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
-                  {award.title}
-                </h3>
-                <p className="text-muted-foreground mb-2">{award.organization}</p>
-                <p className="text-sm text-secondary font-semibold">{award.year}</p>
-              </div>
-            )
-          })}
+         
 
 
 
-        </div> */}
+ 
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {awards.map((award, index) => (
@@ -149,7 +129,7 @@ export default function Awards() {
               <img
                 src={award.image}
                 alt={award.title}
-                className="absolute inset-0 w-full h-full object-cover"
+                className="absolute inset-0 w-full h-full "
               />
 
               {/* Dark gradient for text readability */}
