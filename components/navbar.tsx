@@ -11,22 +11,29 @@ export default function Navbar() {
         </h1> */}
 
 
-
-        {/* Logo */}
-        <div className="flex items-center gap-3">
-          {/* Logo → mobile only */}
-          {/* <img
+        {/* Logo → mobile only */}
+        {/* <img
     src="/images/weblogo.png"
     alt="Zenith Engineering Company"
     className="h-10 w-auto object-contain md:hidden"
   /> */}
+        {/* Logo */}
+        <div className="flex items-center gap-3">
 
 
-          <div className="inline-flex items-center justify-center h-10 w-10 rounded-full bg-white shadow-lg backdrop-blur-sm ">
+
+          {/* <div className="inline-flex items-center justify-center h-10 w-10 rounded-full bg-white shadow-lg backdrop-blur-sm ">
             <img
-              src="/images/weblogo.png"
+              src="/images/weblogo.jpeg"
               alt="Zenith Engineering Company"
               className="h-9 w-auto object-contain  "
+            />
+          </div> */}
+          <div className="inline-flex items-center justify-center h-12 w-12 rounded-full bg-white shadow-lg backdrop-blur-sm overflow-hidden">
+            <img
+              src="/images/weblogo.jpeg"
+              alt="Zenith Engineering Company"
+              className="h-full w-full object-cover"
             />
           </div>
           {/* Text → always visible */}

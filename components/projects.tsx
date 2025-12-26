@@ -30,10 +30,10 @@ const projects = [
   },
   {
     category: "Coke Making",
-    title: "Cooling Chamber Installation",
-    description: "Advanced cooling system installation at coke plant",
+    title: "Advanced cooling system installation at LD",
+    description: "Advanced cooling system installation at LD",
     location: "Tata Steel Jamshedpur",
-    image: "/industrial-cooling-system.jpg",
+    image: "/industrial-cooling-system.jpeg",
   },
   {
     category: "Cement Plant",
