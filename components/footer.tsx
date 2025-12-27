@@ -150,10 +150,40 @@ bg-gradient-to-r from-blue-950 via-blue-900 to-blue-950">
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-border pt-8">
+        {/* <div className="border-t border-border pt-8">
           <div className="flex justify-center items-center text-sm text-white/80">
             <p>&copy; 2025 Zenith Engineering Company. All rights reserved.</p>
-            {/* <div className="flex gap-6"> */}
+           
+          </div>
+        </div> */}
+        <div className="border-t border-border pt-8">
+  <div className="relative flex items-center text-sm text-white/80">
+    
+    {/* Center text */}
+    <p className="mx-auto">
+      &copy; 2025 Zenith Engineering Company. All rights reserved.
+    </p>
+
+    {/* Right aligned developer credit */}
+    <a
+      href="https://www.linkedin.com/in/abhishek-mishra06460/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="absolute right-0 hover:text-white transition"
+    >
+      Powered by Abhishek Mishra
+    </a>
+
+  </div>
+</div>
+
+      </div>
+    </footer>
+  )
+}
+
+
+  {/* <div className="flex gap-6"> */}
               {/* <a href="#" className="hover:text-primary transition-colors">
                 Privacy Policy
               </a>
@@ -161,9 +191,3 @@ bg-gradient-to-r from-blue-950 via-blue-900 to-blue-950">
                 Terms of Service
               </a> */}
             {/* </div> */}
-          </div>
-        </div>
-      </div>
-    </footer>
-  )
-}

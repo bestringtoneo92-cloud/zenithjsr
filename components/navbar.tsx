@@ -31,7 +31,7 @@ export default function Navbar() {
           </div> */}
           <div className="inline-flex items-center justify-center h-12 w-12 rounded-full bg-white shadow-lg backdrop-blur-sm overflow-hidden">
             <img
-              src="/images/weblogo.jpeg"
+              src="/images/weblogo.png"
               alt="Zenith Engineering Company"
               className="h-full w-full object-cover"
             />
