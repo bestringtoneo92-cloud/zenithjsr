@@ -21,7 +21,7 @@ const clients = [
   { name: "Tata Steel Jamshedpur", logo: "/valuable_client/VALUABLE_CLIENTS1.jpg" },
   { name: "Tata Steel Kalinganagar", logo: "/valuable_client/VALUABLE_CLIENTS11.jpg" },
   { name: "TRF Limited", logo: "/valuable_client/VALUABLE_CLIENTS12.jpg" },
-  { name: "L&T Construction", logo: "/valuable_client/VALUABLE_CLIENTS10.jpg" },
+  { name: "L&T Construction", logo: "/valuable_client/VALUABLE_CLIENTS19.jpeg" },
   { name: "Nuvoco Jaipur", logo: "/valuable_client/VALUABLE_CLIENTS9.jpg" },
   { name: "JUSCO", logo: "/valuable_client/VALUABLE_CLIENTS7.jpg" },
   { name: "Tata Metaliks", logo: "/valuable_client/VALUABLE_CLIENTS6.jpg" },
